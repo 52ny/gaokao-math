@@ -1632,7 +1632,7 @@
   }
 
   /* ================= 设置 ================= */
-  var ADMIN_PASS = '20061102';
+  var ADMIN_PASS = 'jjy';
   function isAdmin() { try { return sessionStorage.getItem('gk.admin') === '1'; } catch (e) { return false; } }
   function adminBankTools() {
     return '<div class="btn-row"><label class="btn sm primary" for="ext-file">导入题库（CSV / JSON）</label>' +
